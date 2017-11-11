@@ -1,8 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>
-      netstandard1.3;net451
-    </TargetFrameworks>
+    <TargetFrameworks>netstandard1.3;net451</TargetFrameworks>
+    <PackageId>MailChimp.Net.V3</PackageId>
+    <Product>MailChimp.Net.V3</Product>
+    <Title>MailChimp.Net.V3</Title>
+    <Description>A .NET Wrapper for Mail Chimp v3.0 API</Description>
+    <Summary>A very fast, thin, and intuitive .NET Wrapper for the Mail Chimp v3.0 API.</Summary>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -26,9 +29,6 @@
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>MailChimp.Key.snk</AssemblyOriginatorKeyFile>
-  </PropertyGroup>
-  <PropertyGroup>
-    <PackageId>MailChimp.Net.V3</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
