@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard1.6</TargetFramework>
+    <TargetFramework>netstandard1.3</TargetFramework>
     <PackageId>MailChimp.Net.V3.MvcCore</PackageId>
     <Product>MailChimp.Net.V3.MvcCore</Product>
     <Title>MailChimp.Net.V3.MvcCore</Title>
