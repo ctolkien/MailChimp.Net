@@ -1,11 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard1.3</TargetFramework>
-    <PackageId>MailChimp.Net.V3.MvcCore</PackageId>
-    <Product>MailChimp.Net.V3.MvcCore</Product>
-    <Title>MailChimp.Net.V3.MvcCore</Title>
+    <PackageId>MailChimp.Net.V3.AspNetCore</PackageId>
+    <Product>MailChimp.Net.V3.AspNetCore</Product>
+    <Title>MailChimp.Net.V3.AspNetCore</Title>
     <Description>A .NET Wrapper for Mail Chimp v3.0 API</Description>
-    <Summary>This packages adds extensions for MVC Core</Summary>
+    <Summary>This packages adds extensions for ASP.NET Core</Summary>
   </PropertyGroup>
 
   <ItemGroup>
