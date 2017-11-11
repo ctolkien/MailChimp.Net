@@ -4,9 +4,6 @@
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Options;
-
 namespace MailChimp.Net.Core
 {
     /// <summary>
@@ -26,14 +23,6 @@ namespace MailChimp.Net.Core
         {
             ApiKey = apiKey,
         };
-        
-        /// <summary>
-        /// Initializes a new instance of the <see cref="MailManagerBase"/> class.
-        /// </summary>
-        /// <param name="mailChimpConfiguration">
-        /// MailchimpOptions.
-        /// </param>
-        protected MailManagerBase(IOptions<MailChimpOptions> optionsAccessor) => MailChimpOptions = optionsAccessor.Value;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="MailManagerBase"/> class.

@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MailChimp.Net.MvcCore\MailChimp.Net.MvcCore.csproj" />
     <ProjectReference Include="..\MailChimp.Net\MailChimp.Net.csproj" />
   </ItemGroup>
 
