@@ -58,7 +58,6 @@ namespace MailChimp.Net
             this.BatchWebHooks = new BatchWebHookLogic(MailChimpOptions);
         }
 
-
         /// <summary>
         /// Gets the abuse reports.
         /// </summary>
@@ -213,7 +212,6 @@ namespace MailChimp.Net
         /// Gets the logic to access mail chimp web hooks
         /// </summary>
         public IWebHookLogic WebHooks { get; }
-
 
         public IBatchWebHookLogic BatchWebHooks { get; }
 
